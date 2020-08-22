@@ -13,7 +13,7 @@ deployment:
     -/bin/cp willow.html $DEPLOYPATH
     -/bin/cp -R images $DEPLOYPATH
     -/bin/cp -R assets $DEPLOYPATH
-    #-/bin/cp  $DEPLOYPATH
+    -/bin/cp -R .cpanel.yml $DEPLOYPATH
     #-/bin/cp  $DEPLOYPATH
     #-/bin/cp  $DEPLOYPATH
     #-/bin/cp  $DEPLOYPATH
