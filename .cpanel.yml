@@ -1,20 +1,20 @@
----
-deployment:
-  tasks:
-    -export DEPLOYPATH=/home/user/public_html/
-    -/bin/cp index.html $DEPLOYPATH
-    -/bin/cp emailSentPage.html $DEPLOYPATH
-    -/bin/cp contact.html $DEPLOYPATH
-    -/bin/cp farmlin.html $DEPLOYPATH
-    -/bin/cp index.html $DEPLOYPATH
-    -/bin/cp projects.html $DEPLOYPATH
-    -/bin/cp roomie.html $DEPLOYPATH
-    -/bin/cp vrProjectsDisplay.html $DEPLOYPATH
-    -/bin/cp willow.html $DEPLOYPATH
-    -/bin/cp -R images $DEPLOYPATH
-    -/bin/cp -R assets $DEPLOYPATH
-    -/bin/cp -R .cpanel.yml $DEPLOYPATH
-    #-/bin/cp  $DEPLOYPATH
+#---
+#deployment:
+#  tasks:
+#    -export DEPLOYPATH=/home/user/public_html/
+#    -/bin/cp index.html $DEPLOYPATH
+#    -/bin/cp emailSentPage.html $DEPLOYPATH
+#    -/bin/cp contact.html $DEPLOYPATH
+#    -/bin/cp farmlin.html $DEPLOYPATH
+#    -/bin/cp index.html $DEPLOYPATH
+#    -/bin/cp projects.html $DEPLOYPATH
+#    -/bin/cp roomie.html $DEPLOYPATH
+#    -/bin/cp vrProjectsDisplay.html $DEPLOYPATH
+#    -/bin/cp willow.html $DEPLOYPATH
+#    -/bin/cp -R images $DEPLOYPATH
+#    -/bin/cp -R assets $DEPLOYPATH
+#    -/bin/cp -R .cpanel.yml $DEPLOYPATH
+#    #-/bin/cp  $DEPLOYPATH
     #-/bin/cp  $DEPLOYPATH
     #-/bin/cp  $DEPLOYPATH
     #-/bin/cp  $DEPLOYPATH
