@@ -4112,3 +4112,12 @@ input, select, textarea {
 	.project-text {
 		width: 60%;
 	}
+	span.label {
+		padding: 8em 9em 17em 21em;
+	}
+	.Roomie-info {
+		display: block;
+		align-items: center;
+		padding: 5px 23% 0em 23%;
+		height: 30em;
+	}
