@@ -4121,3 +4121,7 @@ input, select, textarea {
 		padding: 5px 23% 0em 23%;
 		height: 30em;
 	}
+	.my-info {
+		/* display: flex; */
+		display: -webkit-inline-box;
+	}
