@@ -4124,4 +4124,25 @@ input, select, textarea {
 	.my-info {
 		/* display: flex; */
 		display: -webkit-inline-box;
+		padding: 0em 10%;
+	}
+	.main-lang-div {
+		height: 10em;
+		padding: 0em 10%;
+	}
+
+	.lang-Buttons {
+		height: 100%;
+	}
+	.main-lang-div img {
+		height: 100%;
+	}
+
+	.lang-Buttons {
+		display: flex;
+		align-items: center;
+		overflow: scroll;
+	}
+	.main-lang-div:after  {
+		height: auto;
 	}
