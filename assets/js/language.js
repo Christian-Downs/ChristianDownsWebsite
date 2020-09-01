@@ -11,12 +11,24 @@ function textSetter(lang){
         case "C#":
             txt = ('string word1 = "Hello";\nstring word2 = "world";\nConsole.WriteLine(word1 + " " + word2);\nConsole.ReadLine();\n//This will make two strings then put them together in a write line producing "Hello world"');
             break;
-        case "html":
-            txt = 'test';
+        case "CSS":
+            txt = 'CSS';
+            break;
+        case "Html":
+            txt = 'html';
+            break;
+        case "JavaScript":
+            txt='JavaScript';
+            break;
+        case "SQL":
+            txt = 'SQL';
+            break;
+        case "Ruby":
+            txt='Ruby';
             break;
         default:
+            txt = 'something is wrong';
             break;
-        
     }
 
     codeWriter();

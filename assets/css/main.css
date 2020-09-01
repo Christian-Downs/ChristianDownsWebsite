@@ -4135,6 +4135,7 @@ input, select, textarea {
 		height: 10em;
 	}
 	.main-lang-div img {
+		padding: 0em 7px;
 		height: 100%;
 	}
 
