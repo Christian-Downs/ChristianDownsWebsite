@@ -46,8 +46,9 @@
 				var $a = $(this).find('a');
 
 				if ($a.length > 0)
+				{
 					window.location.href = $a.attr('href');
-
+				}
 			})
 			.each(function() {
 

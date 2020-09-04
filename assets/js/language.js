@@ -12,10 +12,14 @@ function textSetter(lang){
             txt = ('string word1 = "Hello";\nstring word2 = "world";\nConsole.WriteLine(word1 + " " + word2);\nConsole.ReadLine();\n//This will make two strings then put them together in a write line producing "Hello world"');
             break;
         case "CSS":
-            txt = 'CSS';
+            txt = ('CSS');
             break;
         case "Html":
-            txt = 'html';
+            txt = (''+
+            '<html>'+
+            '<div>'+
+            '</div>'+
+            '</html>');
             break;
         case "JavaScript":
             txt='JavaScript';
