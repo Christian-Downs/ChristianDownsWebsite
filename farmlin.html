@@ -37,7 +37,7 @@
                     <li><a href="index.html">Home</a></li>
 <li><a href="aboutMe.html">About Me</a>
        <ul>
-             						 <li><a href="ChristianDowns.pdf" target="_blank">Resume</a></li> 
+             						 <li><a href="resume.html" target="_blank">Resume</a></li> 
 <li><a href ="languages.html">Languages</a></li>
        </ul>
 </li>
@@ -58,9 +58,17 @@
         </header>
         <!-- Main -->
         <div id="main">
-            <div class="under-construction-img">
+            <h1 class="farmline-Header">Farmlin (still underdevelopment)</h1>
+            <!-- <div class="under-construction-img">
                 <img src="images/under-construction-1.gif" />
+            </div> -->
+            <div class="farmline-game-div" id="game-loader">
+                <button onclick="startGame()" class="farmlin-Button">Play Game</button>
             </div>
+            <div class="farmlin-info">
+                
+            </div>
+            
         </div>
 
         <!-- Footer -->
@@ -71,10 +79,9 @@
                     <p>I'm currently in the job market! If you're interested in getting in contact with me send me an
                         email!</p>
                     <ul class="icons style2">
-                        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                        <li><a href="#" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+                        <li><a href="https://www.facebook.com/christian.downs.79" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCL02x3l6FjDK8WVAAkZCUzA"
+                                class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
                     </ul>
                 </section>
                 <section>
@@ -116,6 +123,11 @@
     <script src="assets/js/main.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="email.js"></script>
+    <script >
+        function startGame(){
+            document.getElementById("game-loader").innerHTML = ('<iframe frameborder="0" src="https://itch.io/embed-upload/2697257?color=333333" allowfullscreen="" width="960" height="660"><a href="https://fabiothefly.itch.io/farmlin">Play Farmlin on itch.io</a></iframe>');
+        }
+    </script>
 
 
 </body>

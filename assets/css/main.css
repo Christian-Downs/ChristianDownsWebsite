@@ -4287,7 +4287,7 @@ span.label {
 	display: block;
 	align-items: center;
 	padding: 5px 23% 0em 23%;
-	height: 30em;
+	height: auto;
 }
 
 .my-info {
@@ -4386,4 +4386,39 @@ input[type="submit"] {
 }
 code#demo {
 	background-color: #8080807a;
+}
+.Resume-Div {
+	text-align-last: center;
+}
+
+embed.Resume {
+	width: 75%;
+	height: 38em;
+}
+img.roomie-Pic {
+	height: 21em;
+	/* width: 33em; */
+	min-width: 33em;
+}
+
+.roomie-Pic-Div {
+	text-align: center;
+}
+
+p.technologies-item {
+	margin: 0;
+	font-family: monospace;
+}
+h1.technologies-heading {
+	padding: 0em 25%;
+}
+.farmline-game-div {
+	text-align: center;
+}
+h1.farmline-Header {
+	text-align: center;
+	font-family: cursive;
+}
+button.farmlin-Button {
+	background-color: rgb(159 197 236);
 }

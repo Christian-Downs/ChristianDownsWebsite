@@ -1,23 +1,31 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Polymorph by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
 <html>
 
 <head>
-    <title>Languages</title>
+    <title>Christian Downs</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169537665-2"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() { dataLayer.push(arguments); }
-			gtag('js', new Date());
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169537665-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-			gtag('config', 'UA-169537665-2');
-		</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-169537665-2');
+    </script>
 </head>
 
-<body class="is-preload languages-body">
+<body class="is-preload index">
 
     <!-- Wrapper -->
     <div id="wrapper">
@@ -34,12 +42,12 @@
             <nav id="nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-<li><a href="aboutMe.html">About Me</a>
-       <ul>
-             						 <li><a href="resume.html" target="_blank">Resume</a></li> 
-<li><a href ="languages.html">Languages</a></li>
-       </ul>
-</li>
+                    <li><a href="aboutMe.html">About Me</a>
+                        <ul>
+                            <li><a href="resume.html" target="_blank">Resume</a></li>
+                            <li><a href="languages.html">Languages</a></li>
+                        </ul>
+                    </li>
                     <li>
                         <!--Drop down menue-->
                         <a href="projects.html" class="dropdown">Projects</a>
@@ -55,19 +63,15 @@
             </nav>
 
         </header>
-
         <!-- Main -->
-        <div class="main-lang-div">
-            <div class="lang-Buttons">
-                <img onclick="textSetter('C#')" src="images/csharpLogo.png" />
-                <img onclick="textSetter('Html')" src="images/html.png" />
-                <img onclick="textSetter('CSS')" src="images/csslogo.png" />
-                <img onclick="textSetter('JavaScript')" src="images/JavaScriptLogo.png" />
-                <img onclick="textSetter('SQL')" src="images/SQLLogo.png" />
-            </div>
-            <div class="lang-code"><pre><code id="demo"></code></pre>
-            </div>
+        <div id="main">
+            
+            <div class="Resume-Div">
+                <h1 class="resume-header">Resume</h1>
+            <embed src="ChristianDowns.PDF" class="Resume"/>
         </div>
+        </div>
+
         <!-- Footer -->
         <footer id="footer">
             <div class="inner">
@@ -121,8 +125,6 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="email.js"></script>
-    <script src="assets/js/language.js"></script>
 
 
 </body>
