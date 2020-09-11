@@ -18,7 +18,7 @@
 		</script>
 </head>
 
-<body class="is-preload roomie">
+<body class="is-preload roomie" onload="checkPage()" onresize="checkPage()">
 
 
 
@@ -66,10 +66,10 @@
             <div class="roomie-Pic-Div">
                 <a href="images/FrontPageChristian.jpg" target="_blank"><img src="images/FrontPageChristian.jpg" class="roomie-Pic" /></a>
                     </div>
-            <div class="Roomie-info">
             
-                <h1 class="technologies-heading">Technologies</h1>
-                <div style="width: 50%; float: left;">
+            
+                <h1 style="text-align: center;">Technologies</h1>
+                <div style="width: 50%; float: left; padding: 0em 0em 0em 10%;" id="leftDivRoomie">
                     <ul>
                         <li>
                             <p class="technologies-item">C#</p>
@@ -87,7 +87,7 @@
                             <p class="technologies-item">SQL</p>
                         </li>
                 </div>
-                <div style="width: 50%; float: right;">
+                <div style="width: 50%; float: right;" id="rightDivRoomie">
                     <ul><li>
                         <p class="technologies-item">ADO.NET MVC</p>
                     </li>
@@ -104,15 +104,17 @@
                         <p class="technologies-item">Visual Studios</p>
                     </li>
                     </ul>
-                </div>
-            <h1 style="padding: 0em 25%;">Description</h1>
+                </div><br>
+            <div class="Roomie-info">
+            <h1 style="text-align: center;">Description</h1>
             <p>
-                &emsp;Hello, welcome to <i>Roomie</i>! This program is a social-connecter app, in the layout of Tinder,
+                <!--&emsp;-->Hello, welcome to <i>Roomie</i>! This program is a social-connecter app, in the layout of Tinder,
                 using
                 C# ADO.NET MVC and SQL
                 server to connect users to other users for the purpose of finding a roommate and an apartment.<br>
                 <br>
-                &emsp;It works like this: A website visitor will open up the page and be greeted with a sign in or
+                <!--&emsp;-->It works like this: A website visitor will open up the page and be greeted with a sign in
+                or
                 register page. After
                 registration, the user is led to the home page. Here the user will be shown their first potential roommate. They are
                 shown a picture of a user as well as their name, city they are looking for, self-made description, and if they own a
@@ -122,19 +124,21 @@
                 favorited). If skipped, a new profile will be shown. After the user has liked or favorited anyone they will gain access
                 to messaging. In the messaging tab, they can send messages back and forth allowing for quick and easy communication.<br>
                 <br>
-                &emsp;The user can also go into the apartment section of <i>Roomie</i>. Here they are shown a list of
+                <!--&emsp;-->The user can also go into the apartment section of <i>Roomie</i>. Here they are shown a
+                list of
                 apartments in the area. If they
                 choose to click on one, they are redirected to a page with all the information about the apartment. This includes price,
                 location, a picture of the property, a self-made description section, as well as a Google map satellite location of the
                 property. Here they can click a button to start email correspondence with the property owner or representative.<br>
                 <br>
-                &emsp;There are actually two types of users: the renters and the apartment owners. If the user registers
+                <!--&emsp;-->There are actually two types of users: the renters and the apartment owners. If the user
+                registers
                 as an apartment owner
                 they will be directed to an apartment creation screen. Here they would import all of the apartment information as well
                 as a picture to be shown. Then the apartment is added to the database and they will be contacted through email if anyone
                 wants to communicate with them.<br>
                 <br>
-                &emsp;Long story short, Roomie is a connectivity application. It allows for people to connect and
+                <!--&emsp;-->Long story short, Roomie is a connectivity application. It allows for people to connect and
                 potentially move forward in
                 the next step in their life. People need their dating apps, yes, but it’s about time people slowed down and get a bud to
                 split the rent with! It’s time for <i>Roomie</i>!
@@ -196,7 +200,13 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="email.js"></script>
+    <script>
+        function checkPage(){
+        var leftDiv = document.getElementById('leftDivRoomie');
+        if (screen.width >= 525) { leftDiv.style.padding='0em 0em 0em 28%'}
+        else { leftDiv.style.padding='0em 0em 0em 10%'} }
+
+    </script>
 
 
 </body>
