@@ -4422,3 +4422,30 @@ h1.farmline-Header {
 button.farmlin-Button {
 	background-color: rgb(159 197 236);
 }
+
+
+.resume-content {
+    padding: 2em;
+    line-height: 1.6;
+	justify-items: center;
+}
+
+.resume-content h2 {
+    margin-top: 1.5em;
+    color: #333;
+}
+
+.resume-content h3 {
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.resume-content ul {
+    padding-left: 1.5em;
+}
+
+.resume-header {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
